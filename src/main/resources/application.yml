@@ -1,0 +1,9 @@
+server:
+  port: 8011
+  
+zuul:
+  routes:
+    student-service:
+      url: 'http://localhost:8098'
+    teacher-service:
+      url: 'http://localhost:8099'
